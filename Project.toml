@@ -1,0 +1,13 @@
+name = "NumericalToolKits"
+uuid = "b8d3c0dc-4a24-42ff-973f-3ed1478a9755"
+authors = ["ArrogantGao <gaoxuanzhao@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
